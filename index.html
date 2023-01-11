@@ -1,0 +1,145 @@
+<!-- ~ diplomka by Vika -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austria</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-flex">
+                
+            <nav>
+                <a href="https://en.wikipedia.org/wiki/Austria">Austria</a>
+                <a href="https://immigrant-austria.com/ru/country/">Info</a>
+                <a href="http://www.maps-of-europe.com/maps-of-austria/">Map</a>
+                <a href="support.html">Support</a>
+            </nav>
+        </div>
+        <div class="text">
+            <h2 class="header-text">AUSTRIA</h2>
+            <p>
+                Austria is a Central European country with an imperial history, baroque architecture, mountain villages and an alpine landscape.
+                The official language here is German. The capital of Austria - the city of Vienna - is located on the Danube River.
+                Vienna is notable for its Schönbrunn and Hofburg palaces, as well as for the fact that such famous people as Wolfgang Amadeus Mozart,
+                Johann Strauss and Sigmund Freud lived here. 
+                Popular attractions in Austria are the Bohemian Forest in the north of the country, Lake Traunsee and the vineyards located in the east.
+            </p>
+        </div>
+    </header>
+
+    <section class="cards">
+        <div class="container">
+            <div class="card">
+                <i class="info fas fa-info-circle"></i>
+                <div class="text_info">
+                    The flag of Austria consists of three equal horizontal stripes of red(top), white and red. The eagle holds a hammer and
+                    sickle representing workers and peasants, 
+                    personifying the middle class and urban residents. However, the eagle is not in all versions of flags.
+                </div>
+                <img src="./images/flag.jpg" class="flag">
+                <div class="card_text">
+                    <h3>
+                        Flag
+                    </h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="info fas fa-info-circle"></i>
+                <div class="text_info">
+                    Austria has many unusual museums, castles and cathedrals. For example: St. Stephen's Cathedral (Vienna),
+                    Hofburg Palace (Vienna), Belvedere Palace (Vienna), as well as Schoenbrunn Palace (Vienna).
+                </div>
+                <img src="./images/showplaces.jpg" class="showplaces">
+                <div class="card_text">
+                    <h3>
+                        Showplaces
+                    </h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="info fas fa-info-circle"></i>
+                <div class="text_info">
+                    Majestic mountains occupy more than half of modern Austria, forming an array in the center of the country.
+                    Deciduous and mixed forests dominate in the north of Austria. A rich flora and fauna has formed in the Southeast.
+                </div>
+                <img src="./images/nature.jpg" class="nature">
+                <div class="card_text">
+                    <h3>
+                        Nature
+                    </h3>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <i class="info fas fa-info-circle"></i>
+                <div class="text_info">
+                    Vienna is the capital and largest city of Austria, located in the northeastern
+                    part of the country. This is a metropolis with a unique charm, energy and atmosphere.
+                    Vienna is the cultural capital of Europe, a surprisingly romantic and open city.
+                </div>
+                <img src="./images/wien.jpg" class="flag">
+                <div class="card_text">
+                    <h3>
+                        Vienna
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <button class="card-btn">More</button>
+        <script src="https://kit.fontawesome.com/140219e2b5.js"
+        crossorigin="anonymous">
+        </script>
+    </section>
+
+    <section class="gallery">
+    <div class="row">
+
+        <div class="column">
+            <img src="./images/aualpen.jpg " onclick="openImg(this);">
+        </div>
+
+        <div class="column">
+            <img src="./images/aucastle.jpg" onclick="openImg(this);">
+        </div>
+
+        <div class="column">
+            <img src="./images/augraz.jpg" onclick="openImg(this);">
+        </div>
+
+        <div class="container1">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%; height:100%">
+        </div>
+
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="describtion">
+                <p class="p_footer">
+                    In this small country, located in center of Europe, you can stroll through the cozy streets of Salzburg and Innsbruck,
+                    drink the famous fragrant Viennese coffee, visit the Vienna Opera, enjoy the works of Mozart,
+                    swim in thermal pools and improve your health in the therapeutic radon tunnels of Gastein, relax on the lakes of Carinthia,
+                    rafting on a mountain river, and Of course, go skiing in the Alps!
+                </p>
+            </div>
+            <div class="about">
+                <p class="abbout">
+                    This site was made to get acquainted with a beautiful country - Austria.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script/austria.js"></script>
+</body>
+</html>
