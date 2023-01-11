@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Syncopate', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.contact {
+    background-image: url(https://assets.vogue.com/photos/5aa18ec50ec45c7da912b925/master/w_2560%2Cc_limit/00-story-image-non-skiing-guide-to-tyrol-austria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contacthead {
+    margin: 0 auto;
+    padding: 180px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 0 0 rgb(57, 143, 183), 0 3px 0 rgb(57, 143, 183), 0 4px 0 rgb(57, 143, 183), 1px 0 0 rgb(57, 143, 183);
+}
+
+.contact_container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.contact_form {
+    display: flex;
+}
+
+input {
+    width: 450px;
+    height: 50px;
+    top: auto;
+    text-align: center;
+    background-color: white;
+    border: 4px rgb(57, 143, 183);
+    border-style: solid;
+}
+
+.input_button {
+    background-color: rgb(57, 143, 183);
+    padding: 19.6px 50px;
+    top: auto;
+    color: white;
+    cursor: pointer;
+}

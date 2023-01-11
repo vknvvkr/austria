@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header-wrapper {
+    background-image: url(https://grodnoinvest.by/uploads/news/2019/march/zastavka.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-shadow:
+    0 0 7px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 21px rgb(255, 0, 0);
+}
+
+a {
+    font-size: 27px;
+}
+
+h2 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 30px;
+    margin: 0 auto;
+    text-shadow:
+    0 0 7px #000,
+    0 0 10px #000,
+    0 0 21px #000;
+}
+
+p {
+    color: white;
+    padding: 56px;
+    font-size: 27px;
+    text-align: center;
+    text-shadow:
+    0 0 7px #000,
+    0 0 10px #000,
+    0 0 21px #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .card {
+    margin: 50px;
+    padding: 30px;
+    width: 300px;
+    height: 220px;
+    box-shadow: 0 0 30px rgb(89, 88, 88);
+    border-radius: 20px;
+} */
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.card_text {
+    vertical-align: top;
+}
+
+h3 {
+    font-size: 27px;
+    color: white;
+}
+
+img {
+    align-items: center;
+    width: 300px;
+    background-size: cover;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.card {
+    width: 300px;
+    height: 430px;
+    position: relative;
+    box-shadow: 0 0 30px rgb(128, 128, 128);
+    margin: 150px auto;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(231, 212, 44) 0%,
+    rgb(58, 190, 233) 100%);
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .info {
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 3;
+    font-size: 26px;
+ }
+
+ .text_info {
+    padding: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.085);
+    backdrop-filter: blur(20px);
+    height: 88%;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    position: relative;
+    font-size: 18px;
+    z-index: 3;
+    display: none;
+    border-radius: 20px;
+  }
+
+  /* .card:hover .text_info {
+    height: 170px;
+    transition: 0.6s;
+  } */
+
+  .info:hover ~.text_info {
+    display: block;
+    border-radius: 20px;
+}
+
+button {
+    padding: 20px 35px;
+    margin: 28px auto;
+    display: block;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgb(71 191 218);
+    align-items: center;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 30px;
+}
+
+.column img {
+    opacity: 0.6;
+    cursor: pointer;
+    height: 300px;
+    width: 370px;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container1 {
+    position: relative;
+    display: none;
+}
+
+/* #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+} */
+
+.closebtn {
+    position: absolute;
+    top: 365px;
+    right: 15px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.p_footer {
+    color: white;
+    text-align: center;
+    padding: 110px;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.abbout {
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
